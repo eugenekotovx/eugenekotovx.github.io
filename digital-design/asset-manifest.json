@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2a9f6edb.chunk.css",
+    "main.js": "./static/js/main.9b6693af.chunk.js",
+    "main.js.map": "./static/js/main.9b6693af.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0527ca1b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0527ca1b.js.map",
+    "static/css/2.b532b5aa.chunk.css": "./static/css/2.b532b5aa.chunk.css",
+    "static/js/2.63249c44.chunk.js": "./static/js/2.63249c44.chunk.js",
+    "static/js/2.63249c44.chunk.js.map": "./static/js/2.63249c44.chunk.js.map",
+    "static/js/3.e85b0509.chunk.js": "./static/js/3.e85b0509.chunk.js",
+    "static/js/3.e85b0509.chunk.js.map": "./static/js/3.e85b0509.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.b532b5aa.chunk.css.map": "./static/css/2.b532b5aa.chunk.css.map",
+    "static/css/main.2a9f6edb.chunk.css.map": "./static/css/main.2a9f6edb.chunk.css.map",
+    "static/js/2.63249c44.chunk.js.LICENSE.txt": "./static/js/2.63249c44.chunk.js.LICENSE.txt",
+    "static/media/ArrowL.794cf97f.svg": "./static/media/ArrowL.794cf97f.svg",
+    "static/media/ArrowR.bdbe3817.svg": "./static/media/ArrowR.bdbe3817.svg",
+    "static/media/App.scss": "./static/media/TitilliumWeb-Light.6987d8ff.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0527ca1b.js",
+    "static/css/2.b532b5aa.chunk.css",
+    "static/js/2.63249c44.chunk.js",
+    "static/css/main.2a9f6edb.chunk.css",
+    "static/js/main.9b6693af.chunk.js"
+  ]
+}
