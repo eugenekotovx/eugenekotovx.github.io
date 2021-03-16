@@ -79,10 +79,10 @@ h1 {
   align-items: center;
 }
 .bet__slider::before {
-  content: url("./img/minus.png");
+  content: url("../img/minus.png");
 }
 .bet__slider::after {
-  content: url("./img/plus.png");
+  content: url("../img/plus.png");
   margin-top: 5px;
 }
 .input {
@@ -122,7 +122,7 @@ h1 {
           appearance: none;
   width: 35px;
   height: 35px;
-  background-image: url("./img/thumb.png");
+  background-image: url("../img/thumb.png");
   background-position: center;
   -webkit-box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.4),
     0px 2px 0px rgba(0, 0, 0, 0.71);
@@ -136,7 +136,7 @@ h1 {
           appearance: none;
   width: 35px;
   height: 35px;
-  background-image: url("./img/thumb.png");
+  background-image: url("../img/thumb.png");
   background-position: center;
   -webkit-box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.4),
     0px 2px 0px rgba(0, 0, 0, 0.71);
@@ -213,7 +213,7 @@ h1 {
   cursor: pointer;
 }
 .checkmark::after {
-  content: url("./img/check.png");
+  content: url("../img/check.png");
   position: absolute;
   opacity: 0;
   height: 36px;
@@ -233,14 +233,14 @@ h1 {
   padding-left: 28px;
 }
 .button_arrow::before {
-  content: url("./img/arrow-right.png");
+  content: url("../img/arrow-right.png");
   position: absolute;
   right: 22px;
   top: 50%;
   transform: translateY(-50%);
 }
 .button_arrow::after {
-  content: url("./img/arrow-right.png");
+  content: url("../img/arrow-right.png");
   position: absolute;
   right: 29px;
   top: 50%;
