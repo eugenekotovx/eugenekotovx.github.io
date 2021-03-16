@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="container__group">
+      <section class="wrapper section__left">
+        <h1 class="title">
+          Входной взнос
+        </h1>
+        <div class="holdem">
+          <img class="holdem__img" src="./img/logo_chip.png" alt="" srcset="">
+          <p class="holdem__status">
+            5/10 <br>
+            ФЛ Холдем
+          </p>
+        </div>
+        <div class="balance">Доступно средств: 2609</div>
+        <div class="bet">
+          <div class="bet__group">
+            <input class="input bet__input" value="1208"></input>
+            <div class="bet__slider">
+              <input type="range" class="range-slider"></div>
+          </div>
+          <div class="bet__controls">
+            <button class="button bet__button">Min</button>
+            <button class="button bet__button">Max</button>
+            <button class="button bet__button">Bank</button>
+            <button class="button bet__button">1/2 Bank</button>
+          </div>
+          <p class="bet__message">Ваш входной взнос не может быть меньше суммы, с которой вы покинули данный стол. Нажмите кнопку ОК, чтобы продолжить, или подождите, когда пройдет время ограничения.</p>
+          <button class="button button_arrow">Быстрая посадка и автодокупка </button>
+        </div>
+      </section>
+      <section class="wrapper section__right">
+      <div class="settings__group">
+        <div class="settings__checkbox">
+          <input id="quick-seat" type="checkbox" class="checkbox__input">
+          <label for="quick-seat" class="checkmark"></label>
+          <span for="quick-seat">Быстрая посадка</span>
+          <button class="info button"></button>
+        </div>
+        <div class="settings__field">
+          <label for="">Автоматически <br> ставить на стол:</label>
+          <input type="input" class="settings__input input">
+          <span>ББ</span>
+        </div>
+      </div>
+      <div class="settings__auto">
+        <div class="settings__group">
+          <div class="settings__checkbox">
+            <input type="checkbox" class="checkbox__input" id="auto-buying">
+            <label for="auto-buying" class="checkmark"></label>
+            <span>Автодокупка</span>
+            <button class="info button"></button>
+          </div>
+          <p class="settings__message">
+            Я хочу пользоваться функцией <br> автоматической докупки и понимаю, что она будет автоматически пополнять мой счет для обеспечения заданного номера стека.
+          </p>
+          <div class="settings__field settings__field_margin">
+            <label for="">Если у меня меньше:</label>
+            <input type="input" class="settings__input input">
+            <span>ББ</span>
+          </div>
+          <div class="settings__field">
+            <label for="">Автоматически докупать до:</label>
+            <input type="input" class="settings__input input">
+            <span>ББ</span>
+          </div>
+        </div>
+      </div>
+      <div class="settings__checkbox">
+        <input type="checkbox" class="checkbox__input" id="save-settings">
+        <label for="save-settings" class="checkmark"></label>
+        <span class="label-text_small">Сохранить настройки после <br> выхода из приложения</span>
+        <button class="info button"></button>
+      </div>
+    </div>
+  </section>
+  <div class="controls">
+    <button class="button system__button">Ok</button>
+    <button class="button system__button">Cashier</button>
+    <button class="button system__button">Cancel</button>
+  </div>
+  </div>
+</body>
+</html>
